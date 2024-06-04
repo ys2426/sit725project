@@ -50,6 +50,7 @@ For international students visiting Australia for the first time, OZScanner is a
 For overseas students travelling to Australia, OZScanner provides an invaluable service. It makes travel planning easier by fusing reasonably priced flying alternatives with well chosen itineraries, opening the door to an exhilarating and stress-free journey.
 
 **Project Structure**
+
 The project uses a common directory structure for web applications:
 
 OZScanner/
