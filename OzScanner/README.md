@@ -23,8 +23,8 @@ For international students visiting Australia for the first time, OZScanner is a
 6. Canberra
 7. Gold Coast
 
-**Suggested Activities:** Based on the distinctive features of each location, each itinerary suggests a schedule of events and attractions.
-**Flexibility and Customization:** Although itineraries offer a place to start, users are free to modify them in accordance with their own interests and schedules.
+- **Suggested Activities:** Based on the distinctive features of each location, each itinerary suggests a schedule of events and attractions.
+- **Flexibility and Customization:** Although itineraries offer a place to start, users are free to modify them in accordance with their own interests and schedules.
 
 **Functionality Breakdown**
 **Frontend:** OZScanner is accessed by users using a web browser. Most likely, HTML, CSS, and JavaScript were used in the creation of the user interface (UI), which may have made use of a framework like Bootstrap to ensure cross-platform responsiveness.
