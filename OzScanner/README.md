@@ -15,7 +15,7 @@ For international students visiting Australia for the first time, OZScanner is a
 
 **2. Travel Itineraries**
 **Curated City Guides:** Pre-built itineraries are available from OZScanner for seven popular Australian destinations:
-1.Sydney
+1. Sydney
 2. Melbourne
 3. Brisbane
 4. Adelaide
