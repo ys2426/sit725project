@@ -7,11 +7,11 @@ For international students visiting Australia for the first time, OZScanner is a
 **Features**
 
 **1. Flight Search**
-**Flexibility in Origin and Destination:** Look for one-way or round-trip flights that arrive at any Australian city or depart from any Australian city.
-**Date Selection:** For round-trip reservations, indicate the day you would like to depart and, if you'd like, include a return date.
-**Price Filter:** To locate flights that are within your budget, set a maximum amount.
-**Aggregation and Comparison:** Using a single, user-friendly interface, OZScanner gathers flight possibilities from several airlines.
-**Price Highlighting:** The application makes it simple to find the best price by displaying the least expensive flight choice clearly.
+- **Flexibility in Origin and Destination:** Look for one-way or round-trip flights that arrive at any Australian city or depart from any Australian city.
+- **Date Selection:** For round-trip reservations, indicate the day you would like to depart and, if you'd like, include a return date.
+- **Price Filter:** To locate flights that are within your budget, set a maximum amount.
+- **Aggregation and Comparison:** Using a single, user-friendly interface, OZScanner gathers flight possibilities from several airlines.
+- **Price Highlighting:** The application makes it simple to find the best price by displaying the least expensive flight choice clearly.
 
 **2. Travel Itineraries**
 **Curated City Guides:** Pre-built itineraries are available from OZScanner for seven popular Australian destinations:
@@ -38,8 +38,8 @@ For international students visiting Australia for the first time, OZScanner is a
 6. The search results are rendered by the frontend, which also shows the pertinent itinerary for the selected destination city and highlights the lowest airfare.
 
 **Data Sources**
-1. To obtain real-time flight data, OZScanner probably uses external APIs from flight aggregator providers.
-2. The pre-planned travel schedules may make use of information that is readily available to the public or they may be combined with a travel data provider to offer a greater selection of sights and activities.
+- To obtain real-time flight data, OZScanner probably uses external APIs from flight aggregator providers.
+- The pre-planned travel schedules may make use of information that is readily available to the public or they may be combined with a travel data provider to offer a greater selection of sights and activities.
 
 **Future Enhancements**
 1. **User Accounts:** Setting up an account system for users may let them watch flight prices, record their favourite itineraries, and get alerts when prices are about to go down.
