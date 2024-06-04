@@ -42,10 +42,10 @@ For international students visiting Australia for the first time, OZScanner is a
 2. The pre-planned travel schedules may make use of information that is readily available to the public or they may be combined with a travel data provider to offer a greater selection of sights and activities.
 
 **Future Enhancements**
-**1. User Accounts:** Setting up an account system for users may let them watch flight prices, record their favourite itineraries, and get alerts when prices are about to go down.
-**2. Search for Accommodations:** By integrating with a hotel booking platform, consumers would be able to easily locate and reserve lodging in addition to their flights.
-**3. Activity Booking:** By adding this feature, a one-stop shop for organising a whole Australian trip would be established.
-**4. Multilingual Support:** Providing the application in different languages would improve accessibility and cater to a wider audience of international students.
+1. **User Accounts:** Setting up an account system for users may let them watch flight prices, record their favourite itineraries, and get alerts when prices are about to go down.
+2. **Search for Accommodations:** By integrating with a hotel booking platform, consumers would be able to easily locate and reserve lodging in addition to their flights.
+3. **Activity Booking:** By adding this feature, a one-stop shop for organising a whole Australian trip would be established.
+4. **Multilingual Support:** Providing the application in different languages would improve accessibility and cater to a wider audience of international students.
 
 For overseas students travelling to Australia, OZScanner provides an invaluable service. It makes travel planning easier by fusing reasonably priced flying alternatives with well chosen itineraries, opening the door to an exhilarating and stress-free journey.
 
