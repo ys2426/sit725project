@@ -1,0 +1,534 @@
+[
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "OOL",
+            "departureDate": "2024-06-04",
+            "returnDate": "2024-06-05",
+            "price": {
+                "total": "149.99"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=OOL&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=OOL&departureDate=2024-06-04&returnDate=2024-06-05&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "AVV",
+            "departureDate": "2024-05-27",
+            "returnDate": "2024-06-02",
+            "price": {
+                "total": "181.32"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=AVV&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=AVV&departureDate=2024-05-27&returnDate=2024-06-02&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "BNE",
+            "departureDate": "2024-06-04",
+            "returnDate": "2024-06-19",
+            "price": {
+                "total": "204.01"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=BNE&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=BNE&departureDate=2024-06-04&returnDate=2024-06-19&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "NAN",
+            "departureDate": "2024-10-26",
+            "returnDate": "2024-11-01",
+            "price": {
+                "total": "441.48"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=NAN&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=NAN&departureDate=2024-10-26&returnDate=2024-11-01&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "AKL",
+            "departureDate": "2024-05-27",
+            "returnDate": "2024-06-07",
+            "price": {
+                "total": "462.96"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=AKL&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=AKL&departureDate=2024-05-27&returnDate=2024-06-07&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "DPS",
+            "departureDate": "2024-11-04",
+            "returnDate": "2024-11-06",
+            "price": {
+                "total": "532.84"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=DPS&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=DPS&departureDate=2024-11-04&returnDate=2024-11-06&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "HKG",
+            "departureDate": "2024-10-12",
+            "returnDate": "2024-10-23",
+            "price": {
+                "total": "567.10"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=HKG&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=HKG&departureDate=2024-10-12&returnDate=2024-10-23&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "PER",
+            "departureDate": "2024-07-01",
+            "returnDate": "2024-07-12",
+            "price": {
+                "total": "597.10"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=PER&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=PER&departureDate=2024-07-01&returnDate=2024-07-12&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "BKK",
+            "departureDate": "2024-08-01",
+            "returnDate": "2024-08-16",
+            "price": {
+                "total": "688.30"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=BKK&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=BKK&departureDate=2024-08-01&returnDate=2024-08-16&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "SIN",
+            "departureDate": "2024-06-12",
+            "returnDate": "2024-06-13",
+            "price": {
+                "total": "693.36"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=SIN&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=SIN&departureDate=2024-06-12&returnDate=2024-06-13&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "MNL",
+            "departureDate": "2024-05-29",
+            "returnDate": "2024-06-04",
+            "price": {
+                "total": "699.50"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=MNL&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=MNL&departureDate=2024-05-29&returnDate=2024-06-04&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "KUL",
+            "departureDate": "2024-06-24",
+            "returnDate": "2024-06-26",
+            "price": {
+                "total": "727.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=KUL&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=KUL&departureDate=2024-06-24&returnDate=2024-06-26&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "NRT",
+            "departureDate": "2024-05-28",
+            "returnDate": "2024-05-30",
+            "price": {
+                "total": "744.36"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=NRT&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=NRT&departureDate=2024-05-28&returnDate=2024-05-30&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "DEL",
+            "departureDate": "2024-07-23",
+            "returnDate": "2024-08-06",
+            "price": {
+                "total": "823.62"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=DEL&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=DEL&departureDate=2024-07-23&returnDate=2024-08-06&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "HNL",
+            "departureDate": "2024-06-06",
+            "returnDate": "2024-06-20",
+            "price": {
+                "total": "831.22"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=HNL&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=HNL&departureDate=2024-06-06&returnDate=2024-06-20&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "LAX",
+            "departureDate": "2024-10-27",
+            "returnDate": "2024-10-31",
+            "price": {
+                "total": "933.06"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=LAX&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=LAX&departureDate=2024-10-27&returnDate=2024-10-31&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "KTM",
+            "departureDate": "2024-06-10",
+            "returnDate": "2024-06-15",
+            "price": {
+                "total": "1042.06"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=KTM&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=KTM&departureDate=2024-06-10&returnDate=2024-06-15&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "LHR",
+            "departureDate": "2024-10-11",
+            "returnDate": "2024-10-22",
+            "price": {
+                "total": "1282.96"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=LHR&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=LHR&departureDate=2024-10-11&returnDate=2024-10-22&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "LHR",
+            "departureDate": "2024-06-03",
+            "returnDate": "2024-06-10",
+            "price": {
+                "total": "1486.06"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=SYD&destination=LHR&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=AUD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=SYD&destinationLocationCode=LHR&departureDate=2024-06-03&returnDate=2024-06-10&adults=1&nonStop=false&maxPrice=2000&currency=AUD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "ICN",
+            "departureDate": "2024-05-28",
+            "returnDate": "2024-05-29",
+            "price": {
+                "total": "1200.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=ICN&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=ICN&departureDate=2024-05-28&returnDate=2024-05-29&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "ICN",
+            "departureDate": "2024-05-28",
+            "returnDate": "2024-05-29",
+            "price": {
+                "total": "1200.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=ICN&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=ICN&departureDate=2024-05-28&returnDate=2024-05-29&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "KUL",
+            "departureDate": "2024-05-27",
+            "returnDate": "2024-06-07",
+            "price": {
+                "total": "1343.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=KUL&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=KUL&departureDate=2024-05-27&returnDate=2024-06-07&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "SHA",
+            "departureDate": "2024-05-28",
+            "returnDate": "2024-06-03",
+            "price": {
+                "total": "1361.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=SHA&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=SHA&departureDate=2024-05-28&returnDate=2024-06-03&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "TPE",
+            "departureDate": "2024-05-27",
+            "returnDate": "2024-05-29",
+            "price": {
+                "total": "1520.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=TPE&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=TPE&departureDate=2024-05-27&returnDate=2024-05-29&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "BKK",
+            "departureDate": "2024-05-27",
+            "returnDate": "2024-05-31",
+            "price": {
+                "total": "1567.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=BKK&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=BKK&departureDate=2024-05-27&returnDate=2024-05-31&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "MNL",
+            "departureDate": "2024-06-20",
+            "returnDate": "2024-06-29",
+            "price": {
+                "total": "1569.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=MNL&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=MNL&departureDate=2024-06-20&returnDate=2024-06-29&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "KHH",
+            "departureDate": "2024-05-27",
+            "returnDate": "2024-06-02",
+            "price": {
+                "total": "1599.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=KHH&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=KHH&departureDate=2024-05-27&returnDate=2024-06-02&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "FUK",
+            "departureDate": "2024-05-27",
+            "returnDate": "2024-05-30",
+            "price": {
+                "total": "1624.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=FUK&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=FUK&departureDate=2024-05-27&returnDate=2024-05-30&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "NGO",
+            "departureDate": "2024-05-27",
+            "returnDate": "2024-05-30",
+            "price": {
+                "total": "1724.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=NGO&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=NGO&departureDate=2024-05-27&returnDate=2024-05-30&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "NRT",
+            "departureDate": "2024-05-28",
+            "returnDate": "2024-06-12",
+            "price": {
+                "total": "1726.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=NRT&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=NRT&departureDate=2024-05-28&returnDate=2024-06-12&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "NRT",
+            "departureDate": "2024-05-28",
+            "returnDate": "2024-06-04",
+            "price": {
+                "total": "1726.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=NRT&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=NRT&departureDate=2024-05-28&returnDate=2024-06-04&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "KIX",
+            "departureDate": "2024-05-27",
+            "returnDate": "2024-05-30",
+            "price": {
+                "total": "1730.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=KIX&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=KIX&departureDate=2024-05-27&returnDate=2024-05-30&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "SIN",
+            "departureDate": "2024-05-30",
+            "returnDate": "2024-06-10",
+            "price": {
+                "total": "1854.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=SIN&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=SIN&departureDate=2024-05-30&returnDate=2024-06-10&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "HKT",
+            "departureDate": "2024-05-27",
+            "returnDate": "2024-06-04",
+            "price": {
+                "total": "1896.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=HKT&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=HKT&departureDate=2024-05-27&returnDate=2024-06-04&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "OKA",
+            "departureDate": "2024-05-27",
+            "returnDate": "2024-05-30",
+            "price": {
+                "total": "1937.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=HKG&destination=OKA&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=HKD&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=HKG&destinationLocationCode=OKA&departureDate=2024-05-27&returnDate=2024-05-30&adults=1&nonStop=false&maxPrice=2000&currency=HKD"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "KUL",
+            "destination": "SIN",
+            "departureDate": "2024-06-06",
+            "returnDate": "2024-06-12",
+            "price": {
+                "total": "497.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=KUL&destination=SIN&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=MYR&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=KUL&destinationLocationCode=SIN&departureDate=2024-06-06&returnDate=2024-06-12&adults=1&nonStop=false&maxPrice=2000&currency=MYR"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "KUL",
+            "destination": "DMK",
+            "departureDate": "2024-08-25",
+            "returnDate": "2024-09-05",
+            "price": {
+                "total": "502.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=KUL&destination=DMK&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=MYR&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=KUL&destinationLocationCode=DMK&departureDate=2024-08-25&returnDate=2024-09-05&adults=1&nonStop=false&maxPrice=2000&currency=MYR"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "KUL",
+            "destination": "DPS",
+            "departureDate": "2024-06-04",
+            "returnDate": "2024-06-06",
+            "price": {
+                "total": "519.00"
+            },
+            "links": {
+                "flightDates": "https://test.api.amadeus.com/v1/shopping/flight-dates?origin=KUL&destination=DPS&departureDate=2024-05-27,2024-11-22&oneWay=false&duration=1,15&nonStop=false&maxPrice=2000&currency=MYR&viewBy=DURATION",
+                "flightOffers": "https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=KUL&destinationLocationCode=DPS&departureDate=2024-06-04&returnDate=2024-06-06&adults=1&nonStop=false&maxPrice=2000&currency=MYR"
+            }
+        }
+    ]
