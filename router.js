@@ -1,22 +1,19 @@
-// // router.js
+const express = require('express');
+const { getHomepage, getFlightDetailsPage } = require('../views/view');
+const {
+    searchFlights,
+    getFlightDetails,
+    login,
+    signup
+} = require('../controller/controller');
 
-// const express = require('express');
-// const controller = require('../controller/controller');
+const router = express.Router();
 
-// const router = express.Router();
+router.get('/', getHomepage);
+router.post('/search-flights', searchFlights);
+router.get('/flight-details', getFlightDetailsPage);
+router.get('/get-flight-details', getFlightDetails);
+router.post('/login', login);
+router.post('/signup', signup);
 
-// // Flight Routes
-// router.get('/flights', controller.getAllFlights);
-// router.get('/flights/:id', controller.getFlightById);
-// router.post('/flights', controller.createFlight);
-// router.delete('/flights/:id', controller.deleteFlight);
-
-// // User Routes
-// router.post('/users', controller.createUser);
-
-// // Root Route
-// router.get('/', (req, res) => {
-//     res.send('Welcome to Oz Scanner!');
-// });
-
-// module.exports = router;
+module.exports = router;
