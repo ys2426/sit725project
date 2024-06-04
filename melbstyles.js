@@ -113,8 +113,8 @@ document.addEventListener("DOMContentLoaded", function () {
         titleElement.appendChild(titleLink);
 
         const imageElement = document.createElement("img");
-        imageElement.src = activity.image;
-        imageElement.alt = activity.title;
+        //imageElement.src = activity.image;
+        //imageElement.alt = activity.title;
 
         const descriptionElement = document.createElement("p");
         descriptionElement.textContent = activity.description;
