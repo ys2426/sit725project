@@ -1,54 +1,34 @@
-// // model.js
+const { MongoClient } = require('mongodb');
+const fs = require('fs');
+const path = require('path');
 
-// // Flight Model
-// let flights = [
-//     { id: 1, destination: 'Sydney', price: 300 },
-//     { id: 2, destination: 'Melbourne', price: 250 },
-//     { id: 3, destination: 'Brisbane', price: 270 },
-//     { id: 4, destination: 'Canberra', price: 320 },
-//     { id: 5, destination: 'Perth', price: 350 },
-//     { id: 6, destination: 'Gold Coast', price: 280 },
-//     { id: 7, destination: 'Adelaide', price: 290 }
-// ];
+const uri = 'mongodb+srv://OZScanner:ozscannercluster@cluster-oz.qqv4y57.mongodb.net/?retryWrites=true&w=majority&appName=Cluster-OZ';
+const options = { useNewUrlParser: true, useUnifiedTopology: true };
+const client = new MongoClient(uri, options);
 
-// function getAllFlights() {
-//     return flights;
-// }
+async function connectToDatabase() {
+    try {
+        await client.connect();
+        console.log('Connected to MongoDB');
+        return client.db('cluster-oz');
+    } catch (error) {
+        console.error('Error connecting to MongoDB', error);
+        throw error;
+    }
+}
 
-// function getFlightById(id) {
-//     return flights.find(flight => flight.id === id);
-// }
+async function getFlights() {
+    try {
+        const data = fs.readFileSync(path.join(__dirname, '..', 'flights.json'), 'utf8');
+        const flights = JSON.parse(data);
+        return flights;
+    } catch (error) {
+        console.error('Error reading flights.json:', error);
+        throw error;
+    }
+}
 
-// function createFlight(destination, price) {
-//     const id = flights.length + 1;
-//     const newFlight = { id, destination, price };
-//     flights.push(newFlight);
-//     return newFlight;
-// }
-
-// function deleteFlight(id) {
-//     flights = flights.filter(flight => flight.id !== id);
-// }
-
-// // User Model
-// let users = [];
-
-// function createUser(name, email, password) {
-//     const id = users.length + 1;
-//     const newUser = { id, name, email, password };
-//     users.push(newUser);
-//     return newUser;
-// }
-
-// function getUserByEmail(email) {
-//     return users.find(user => user.email === email);
-// }
-
-// module.exports = {
-//     getAllFlights,
-//     getFlightById,
-//     createFlight,
-//     deleteFlight,
-//     createUser,
-//     getUserByEmail
-// };
+module.exports = {
+    connectToDatabase,
+    getFlights
+};
