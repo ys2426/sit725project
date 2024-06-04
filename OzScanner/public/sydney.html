@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Things to Do in Sydney</title>
+    <link rel="stylesheet" href="./styles/sydstyles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Great+Vibes&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="Homepage.html">
+                <img src="images/oz.jpeg" alt="Oz Scanner Logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="Homepage.html">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Itinerary
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="sydney.html">Sydney</a></li>
+                            <li><a class="dropdown-item" href="melb.html">Melbourne</a></li>
+                            <li><a class="dropdown-item" href="brisbane.html">Brisbane</a></li>
+                            <li><a class="dropdown-item" href="adelaide.html">Adelaide</a></li>
+                            <li><a class="dropdown-item" href="perth.html">Perth</a></li>
+                            <li><a class="dropdown-item" href="goldcoast.html">Gold Coast</a></li>
+                        </ul>
+                    </li>                    
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a></li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="btn btn-primary" href="login.html">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header>
+        <h1>Things to Do in Sydney</h1>
+    </header>
+    <div class="container" id="activityList">
+        <!-- Activities will be added dynamically here -->
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/sydneystyles.js"></script>
+
+    <!-- Link to Transport for NSW -->
+    <div class="transport-link">
+        <p>For information about public transportation in Sydney, visit <a href="https://transportnsw.info/" target="_blank">Transport for NSW</a>.</p>
+    </div>
+    <div class="footer">
+        <p>Oz Scanner © 2024</p>
+        <p>Mail us at <a href="mailto:info@ozscanner.com">info@ozscanner.com</a></p>
+    </div>
+</body>
+</html>
