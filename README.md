@@ -80,17 +80,44 @@ OZScanner/
 ├── .dockerignore (Files to exclude from Docker image)
 └── README.md (This file)
 
-**Running the Application**
-1. Install dependencies: npm install
-2. Start the development server: npm start
-3. Access the application in your web browser: http://localhost:3000/ (default port)
+## Getting Started
 
-**Contributing**
+### Prerequisites
+Before you can run OzScanner locally, make sure you have the following installed:
+- Node.js (https://nodejs.org/)
+- npm (Node Package Manager)
 
-Currently, there are no instructions for contributing to the project as it likely isn't set up for a collaborative development environment.
+### Setup and Installation
+To get OzScanner up and running on your local machine, follow these steps:
 
-**License**
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Aravind210202/SIT725-project-.git
+   cd SIT725-project-
+2. Install the necessary packages:
+   npm install
+3. Start the server to run the application:
+   npm start
+4. Access the application through your web browser:
+   http://localhost:3030
 
-This project is licensed under the MIT License.  See the LICENSE file for details.
+### Contributing
+We welcome contributions from the community. Here’s how you can contribute:
 
-I hope this README file provides a comprehensive overview of the OZScanner project.
+- Fork the repository.
+- Create a new feature branch (git checkout -b feature/YourFeature).
+- Commit your changes (git commit -m 'Add some feature').
+- Push the changes to your branch (git push origin feature/YourMore).
+- Submit a pull request.
+
+### License
+This project is licensed under the MIT License. See the LICENSE file in the repository for more details.
+
+### Contact
+Mail id - sharathkumarv08@gmail.com
+Project Link: https://github.com/Aravind210202/SIT725-project-
+
+### Acknowledgements
+Thanks to all the contributors who have participated in the development of OzScanner.
+Special thanks to our academic mentors and professors who provided valuable insights and support throughout the project.
+
