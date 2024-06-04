@@ -79,10 +79,6 @@ OZScanner/
 ├── .dockerignore (Files to exclude from Docker image)
 └── README.md (This file)
 
-**Technologies Used**
-**Frontend:** HTML, CSS, JavaScript (Bootstrap framework)
-**Backend:** Node.js on Express Framework
-
 **Running the Application**
 1. Install dependencies: npm install
 2. Start the development server: npm start
