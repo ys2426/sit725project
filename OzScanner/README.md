@@ -27,9 +27,9 @@ For international students visiting Australia for the first time, OZScanner is a
 - **Flexibility and Customization:** Although itineraries offer a place to start, users are free to modify them in accordance with their own interests and schedules.
 
 **Functionality Breakdown**
-**Frontend:** OZScanner is accessed by users using a web browser. Most likely, HTML, CSS, and JavaScript were used in the creation of the user interface (UI), which may have made use of a framework like Bootstrap to ensure cross-platform responsiveness.
+- **Frontend:** OZScanner is accessed by users using a web browser. Most likely, HTML, CSS, and JavaScript were used in the creation of the user interface (UI), which may have made use of a framework like Bootstrap to ensure cross-platform responsiveness.
 
-**Backend:** User queries are handled by a Node.js server that runs on the backend. Here is the workflow:
+- **Backend:** User queries are handled by a Node.js server that runs on the backend. Here is the workflow:
 1. User inputs search parameters for flights (origin, destination, date, and price filter).
 2. To obtain flight possibilities that satisfy the given parameters, the server communicates with an API (Application Programming Interface) of a flight aggregator service (e.g., Kayak, Skyscanner).
 3. After receiving and analysing the flight aggregator's answer, the server extracts the pertinent flight information (airline, price, length, etc.).
