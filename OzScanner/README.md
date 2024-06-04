@@ -85,9 +85,11 @@ OZScanner/
 3. Access the application in your web browser: http://localhost:3000/ (default port)
 
 **Contributing**
+
 Currently, there are no instructions for contributing to the project as it likely isn't set up for a collaborative development environment.
 
 **License**
+
 This project is licensed under the MIT License.  See the LICENSE file for details.
 
 I hope this README file provides a comprehensive overview of the OZScanner project.
