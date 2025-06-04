@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>Flight Details - Sky Wizard</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            background-image: url('images/background.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            min-height: 100vh;
+        }
+
+        .navbar {
+            background-color: rgba(67, 34, 103, 0.95);
+            border-bottom: 2px solid #ffd700;
+            font-family: -apple-system, 'Montserrat', sans-serif;
+            padding: 0.5rem 1rem;
+            position: relative;
+        }
+
+        .navbar .container-fluid {
+            width: 100%;
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar-title {
+            color: white;
+            font-family: 'Lobster', cursive;
+            font-size: 1.8rem;
+            margin: 0;
+            text-align: center;
+            flex-grow: 1;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .drawer-button {
+            background: none;
+            border: none;
+            color: white;
+            padding: 0.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            font-family: 'Montserrat', sans-serif;
+            cursor: pointer;
+            z-index: 1;
+        }
+
+        .drawer-button:hover {
+            color: #ffd700;
+        }
+
+        .drawer-button i {
+            font-size: 1.5rem;
+        }
+
+        .menu-drawer {
+            min-width: 320px;
+            background-color: #432267 !important;
+        }
+
+        .offcanvas {
+            background-color: #432267 !important;
+        }
+
+        .dropdown-menu-dark {
+            background-color: #2c1644;
+            border-color: rgba(255, 215, 0, 0.1);
+        }
+
+        .dropdown-item:hover {
+            background-color: #6a359c;
+        }
+
+        .nav-link {
+            color: #fff;
+            transition: color 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #ffd700;
+        }
+
+        .nav-link.active {
+            color: #ffd700 !important;
+        }
+
+        .dropdown-item {
+            color: #fff;
+            transition: all 0.3s ease;
+        }
+
+        .dropdown-item:hover {
+            color: #ffd700;
+            background-color: #6a359c;
+        }
+
+        .flight-details-container {
+            min-height: calc(100vh - 180px);
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding: 2rem 1rem;
+        }
+
+        .flight-details-box {
+            background-color: rgba(67, 34, 103, 0.95);
+            padding: 2.5rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(67, 34, 103, 0.15);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 215, 0, 0.1);
+            width: 100%;
+            max-width: 800px;
+            color: white;
+        }
+
+        .flight-details-box h1 {
+            color: #ffd700;
+            font-family: 'Lobster', cursive;
+            text-align: center;
+            margin-bottom: 2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .flight-info {
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .flight-info h3 {
+            color: #ffd700;
+            margin-bottom: 1rem;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .flight-info p {
+            margin-bottom: 0.5rem;
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1.1rem;
+        }
+
+        .flight-info .label {
+            color: #ffd700;
+            font-weight: 500;
+        }
+
+        .floating-footer {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background-color: rgba(67, 34, 103, 0.95);
+            color: white;
+            padding: 1rem;
+            z-index: 1000;
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-top: 2px solid #ffd700;
+            text-align: center;
+        }
+
+        .floating-footer a {
+            color: #ffd700;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .floating-footer a:hover {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        .social-links a {
+            color: #ffd700;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #fff;
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .navbar {
+                top: 0.5rem;
+                width: 98%;
+                padding: 0.6rem 1rem;
+            }
+            .navbar-title {
+                font-size: 1.5rem;
+            }
+            .drawer-button {
+                padding: 0.3rem;
+            }
+            .drawer-button i {
+                font-size: 1.3rem;
+            }
+            .flight-details-box {
+                padding: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-dark">
+        <div class="container-fluid">
+            <button class="drawer-button" type="button" data-bs-toggle="offcanvas" data-bs-target="#menuDrawer">
+                <i class="bi bi-list"></i>
+                <span class="d-none d-sm-inline">Menu</span>
+            </button>
+
+            <a href="Homepage.html" class="navbar-title" style="text-decoration: none; color: white;">Sky Wizard</a>
+
+            <button class="drawer-button" type="button" onclick="window.location.href='login.html'">
+                <i class="bi bi-box-arrow-in-right"></i>
+                <span class="d-none d-sm-inline">Login</span>
+            </button>
+        </div>
+
+        <!-- Menu Drawer -->
+        <div class="offcanvas offcanvas-start menu-drawer text-bg-dark" tabindex="-1" id="menuDrawer" aria-labelledby="menuDrawerLabel">
+            <div class="offcanvas-header border-bottom border-light border-opacity-10">
+                <h5 class="offcanvas-title" id="menuDrawerLabel" style="color: #ffd700;">Welcome to Skywizard</h5>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Homepage.html">
+                            <i class="bi bi-house-door me-2"></i>Home
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <i class="bi bi-map me-2"></i>Itinerary
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark">
+                            <li><a class="dropdown-item" href="../sydney.html">Sydney</a></li>
+                            <li><a class="dropdown-item" href="../melb.html">Melbourne</a></li>
+                            <li><a class="dropdown-item" href="../brisbane.html">Brisbane</a></li>
+                            <li><a class="dropdown-item" href="../adelaide.html">Adelaide</a></li>
+                            <li><a class="dropdown-item" href="../perth.html">Perth</a></li>
+                            <li><a class="dropdown-item" href="../goldcoast.html">Gold Coast</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-envelope me-2"></i>Contact
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">
+                            <i class="bi bi-info-circle me-2"></i>About
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="flight-details-container">
+        <div class="flight-details-box">
+            <h1>Flight Details</h1>
+            <div id="flightDetails" class="flight-info">
+                <!-- Flight details will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <div class="floating-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3 style="font-family: 'Lobster', cursive;">Sky Wizard</h3>
+                    <p>Your Journey Begins Here</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Contact Us</h4>
+                    <p>Email: <a href="mailto:info@skywizard.com">info@skywizard.com</a></p>
+                    <p>Phone: +1 (555) 123-4567</p>
+                </div>
+                <div class="col-md-4">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="#" class="me-3"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="me-3"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="me-3"><i class="bi bi-instagram"></i></a>
+                        <a href="#"><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const flightDetailsDiv = document.getElementById('flightDetails');
+            
+            // Try to get search data from sessionStorage
+            const searchData = JSON.parse(sessionStorage.getItem('flightSearchData') || '{}');
+            
+            // If we have search data, display it
+            if (searchData.origin && searchData.destination) {
+                flightDetailsDiv.innerHTML = `
+                    <h3>Flight Information</h3>
+                    <p><span class="label">Origin:</span> ${searchData.origin}</p>
+                    <p><span class="label">Destination:</span> ${searchData.destination}</p>
+                    <p><span class="label">Departure Date:</span> ${searchData.departureDate}</p>
+                    ${searchData.returnDate ? `<p><span class="label">Return Date:</span> ${searchData.returnDate}</p>` : ''}
+                    ${searchData.maxPrice ? `<p><span class="label">Maximum Price:</span> AUD ${searchData.maxPrice}</p>` : ''}
+                `;
+
+                // Make API call to get flight details
+                fetch('/get-flight-details')
+                    .then(response => response.json())
+                    .then(data => {
+                        // Add flight options to the existing content
+                        flightDetailsDiv.innerHTML += `
+                            <div class="mt-4">
+                                <h3>Available Flights</h3>
+                                <p><span class="label">Best Price:</span> ${data.price.total}</p>
+                                <button class="btn search-button mt-3" onclick="window.location.href='booking.html'">
+                                    <i class="bi bi-airplane me-2"></i>Book Now
+                                </button>
+                            </div>
+                        `;
+                    })
+                    .catch(error => {
+                        console.error('Error fetching flight details:', error);
+                        flightDetailsDiv.innerHTML += `
+                            <div class="mt-4 text-danger">
+                                <button class="btn search-button mt-3" onclick="window.location.href='Homepage.html'">
+                                    <i class="bi bi-arrow-left me-2"></i>Back to Search
+                                </button>
+                            </div>
+                        `;
+                    });
+            } else {
+                // No search data found
+                flightDetailsDiv.innerHTML = `
+                    <h3>No Flight Search Data</h3>
+                    <p>Please start a new flight search.</p>
+                    <button class="btn search-button mt-3" onclick="window.location.href='Homepage.html'">
+                        <i class="bi bi-arrow-left me-2"></i>Back to Search
+                    </button>
+                `;
+            }
+        });
+    </script>
+</body>
+</html>
+

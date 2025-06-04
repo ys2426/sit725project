@@ -1,0 +1,417 @@
+[
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "OOL",
+            "departureDate": "2025-06-04",
+            "returnDate": "2025-06-05",
+            "price": {
+                "total": "149.99"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "AVV",
+            "departureDate": "2025-05-27",
+            "returnDate": "2025-06-02",
+            "price": {
+                "total": "181.32"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "BNE",
+            "departureDate": "2025-06-04",
+            "returnDate": "2025-06-19",
+            "price": {
+                "total": "204.01"
+            }
+
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "NAN",
+            "departureDate": "2025-10-26",
+            "returnDate": "2025-11-01",
+            "price": {
+                "total": "441.48"
+            }
+        
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "AKL",
+            "departureDate": "2025-05-27",
+            "returnDate": "2025-06-07",
+            "price": {
+                "total": "462.96"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "DPS",
+            "departureDate": "2025-11-04",
+            "returnDate": "2025-11-06",
+            "price": {
+                "total": "532.84"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "HKG",
+            "departureDate": "2025-10-12",
+            "returnDate": "2025-10-23",
+            "price": {
+                "total": "567.10"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "PER",
+            "departureDate": "2025-07-01",
+            "returnDate": "2025-07-12",
+            "price": {
+                "total": "597.10"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "BKK",
+            "departureDate": "2025-08-01",
+            "returnDate": "2025-08-16",
+            "price": {
+                "total": "688.30"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "SIN",
+            "departureDate": "2025-06-12",
+            "returnDate": "2025-06-13",
+            "price": {
+                "total": "693.36"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "MNL",
+            "departureDate": "2025-05-29",
+            "returnDate": "2025-06-04",
+            "price": {
+                "total": "699.50"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "KUL",
+            "departureDate": "2025-06-24",
+            "returnDate": "2025-06-26",
+            "price": {
+                "total": "727.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "NRT",
+            "departureDate": "2025-05-28",
+            "returnDate": "2025-05-30",
+            "price": {
+                "total": "744.36"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "DEL",
+            "departureDate": "2025-07-23",
+            "returnDate": "2025-08-06",
+            "price": {
+                "total": "823.62"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "HNL",
+            "departureDate": "2025-06-06",
+            "returnDate": "2025-06-20",
+            "price": {
+                "total": "831.22"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "LAX",
+            "departureDate": "2025-10-27",
+            "returnDate": "2025-10-31",
+            "price": {
+                "total": "933.06"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "KTM",
+            "departureDate": "2025-06-10",
+            "returnDate": "2025-06-15",
+            "price": {
+                "total": "1042.06"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "LHR",
+            "departureDate": "2025-10-11",
+            "returnDate": "2025-10-22",
+            "price": {
+                "total": "1282.96"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "SYD",
+            "destination": "LHR",
+            "departureDate": "2025-06-03",
+            "returnDate": "2025-06-10",
+            "price": {
+                "total": "1486.06"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "ICN",
+            "departureDate": "2025-05-28",
+            "returnDate": "2025-05-29",
+            "price": {
+                "total": "1200.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "ICN",
+            "departureDate": "2025-05-28",
+            "returnDate": "2025-05-29",
+            "price": {
+                "total": "1200.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "KUL",
+            "departureDate": "2025-05-27",
+            "returnDate": "2025-06-07",
+            "price": {
+                "total": "1343.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "SHA",
+            "departureDate": "2025-05-28",
+            "returnDate": "2025-06-03",
+            "price": {
+                "total": "1361.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "TPE",
+            "departureDate": "2025-05-27",
+            "returnDate": "2025-05-29",
+            "price": {
+                "total": "1520.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "BKK",
+            "departureDate": "2025-05-27",
+            "returnDate": "2025-05-31",
+            "price": {
+                "total": "1567.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "MNL",
+            "departureDate": "2025-06-20",
+            "returnDate": "2025-06-29",
+            "price": {
+                "total": "1569.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "KHH",
+            "departureDate": "2025-05-27",
+            "returnDate": "2025-06-02",
+            "price": {
+                "total": "1599.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "FUK",
+            "departureDate": "2025-05-27",
+            "returnDate": "2025-05-30",
+            "price": {
+                "total": "1624.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "NGO",
+            "departureDate": "2025-05-27",
+            "returnDate": "2025-05-30",
+            "price": {
+                "total": "1724.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "NRT",
+            "departureDate": "2025-05-28",
+            "returnDate": "2025-06-12",
+            "price": {
+                "total": "1726.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "NRT",
+            "departureDate": "2025-05-28",
+            "returnDate": "2025-06-04",
+            "price": {
+                "total": "1726.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "KIX",
+            "departureDate": "2025-05-27",
+            "returnDate": "2025-05-30",
+            "price": {
+                "total": "1730.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "SIN",
+            "departureDate": "2025-05-30",
+            "returnDate": "2025-06-10",
+            "price": {
+                "total": "1854.00"
+            }
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "HKT",
+            "departureDate": "2025-05-27",
+            "returnDate": "2025-06-04",
+            "price": {
+                "total": "1896.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "HKG",
+            "destination": "OKA",
+            "departureDate": "2025-05-27",
+            "returnDate": "2025-05-30",
+            "price": {
+                "total": "1937.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "KUL",
+            "destination": "SIN",
+            "departureDate": "2025-06-06",
+            "returnDate": "2025-06-12",
+            "price": {
+                "total": "497.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "KUL",
+            "destination": "DMK",
+            "departureDate": "2025-08-25",
+            "returnDate": "2025-09-05",
+            "price": {
+                "total": "502.00"
+            }
+            
+        },
+        {
+            "type": "flight-destination",
+            "origin": "KUL",
+            "destination": "DPS",
+            "departureDate": "2025-06-04",
+            "returnDate": "2025-06-06",
+            "price": {
+                "total": "519.00"
+            }
+            
+        }
+    ]
